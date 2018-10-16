@@ -24,8 +24,8 @@ findmin <- function(a){
       target <- a[i]
     }
   }
-  print(paste("The smallest element is", target, "and the index is", which(a == target), "." ))
+  return(list(minimun = target, index = which(a == target)))
 }
 
-a <- c(1, 4, 2, 0, 5)
+a <- c(1, 4, 0, 0, 5)
 findmin(a)
