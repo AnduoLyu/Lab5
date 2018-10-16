@@ -24,7 +24,7 @@ findmin <- function(a){
       target <- a[i]
     }
   }
-  return(list(minimun = target, index = which(a == target)))
+  return(list(minimum = target, index = which(a == target)))
 }
 
 a <- c(1, 4, 0, 0, 5)
